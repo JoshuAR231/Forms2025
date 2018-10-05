@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Job Aplication</title>
+        <h3 style="color:white">Job Aplication With Resume Upload</h3>
+    </head>
+    <body>
+       <form style="background-color:white" action="https://www.w3schools.com/action_page.php" target="_top" id="form2">
+           <fieldset>
+           <legend> Contact Information </legend>
+       First name* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; Last name*<br/>
+           <input type="text" name="fname" size="22" id="fname" required>
+           
+           
+           
+           <input type="text" name="lname" size="23" required >
+           <br /><br />
+           
+           Email* <br/>
+           <input type="text" name="email" size="50" required>
+           <br /><br />
+           
+           Phone* <br/>
+           <input type="text" name="phone" size="50" required>
+           <br /><br />
+           
+           </fieldset>
+           
+           
+          <fieldset>
+              <legend>Position</legend>
+              <br/>
+              Position you are appliying for*<br/>
+           <input type="text" name="position" size="50" required>
+           <br /><br />
+           
+           
+           Resume Upload<br/>
+                        <table border="1" style="border:hidden">
+                            <tr>
+                                <td width="320">
+                                    <input type="file" name="resume" accept="file_extension" >
+                                </td>
+                            </tr>
+                        </table>
+              <br /><br />
+           
+           Portfolio website<br/>
+           <input type="text" name="pwebsite" size="50">
+           <br /><br />
+           
+            Salary requirements<br/>
+           <input type="text" name="salaryr" size="50">
+           <br /><br />
+           
+            When can you start?<br/>
+           <input type="text" name="startd" size="50">
+           <br /><br />
+           
+           Are you willing to relocate?<br/>
+           <input type = "radio" name = "relocate" value = "yes"> YES
+           <br/>
+           
+           <input type = "radio" name = "relocate" value = "no"> NO
+           <br/>
+           
+           <input type = "radio" name = "relocate" value = "not sure"> Not sure
+           <br/><br/>
+           
+           Last company you worked for?<br/>
+           <input type="text" name="lcompany" size="50">
+           <br /><br />
+           
+           Comments: <br />
+         <textarea rows = "5" cols = "50" name = "comments">
+             Enter your comment....
+         </textarea>
+         <br/>
+         <input type="submit" name="submit" value="Submit">
+  <br><br>
+           </fieldset>
+       </form> 
+    </body>
+</html>
